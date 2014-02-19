@@ -7,8 +7,28 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+	<div class="container">
+		<div class="page-header">
+				<ul class="nav nav-pills pull-right">
+  <li><%= link_to "Home", root_path %>
+  </li>
+  <li><%= link_to "About", "/about" %>
+  </li>
+</ul>
+<h1> 
+				<%= link_to 'Crumbler', root_path %>
+				<small>//sample App</small>
+			</h1>
+			
+		</div>
 
-<%= yield %>
-
+<div class="row">
+	<div class="col-md-6 col-md-offset-3">
+	<%= yield %>
+	</div>
+</div>
+</div>
 </body>
+
 </html>
+
