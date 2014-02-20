@@ -1,2 +1,7 @@
-<h1>welcome</h1>
-<p></p>
+
+
+
+<% @posts.each do |post| %>
+	<%= render 'posts/post', post: post %>
+	<br><br>
+<% end %>
