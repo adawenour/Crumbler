@@ -11,7 +11,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140222150947) do
+ActiveRecord::Schema.define(version: 20140222162145) do
+
+  create_table "likes", force: true do |t|
+    t.integer "post_id"
+  end
 
   create_table "posts", force: true do |t|
     t.string   "title"
