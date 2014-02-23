@@ -9,4 +9,4 @@ By Adawe Nour
 
 Completed Project!
 
-Had slight technical issues on bundle install with the 'pg gem' needed to get this repository online with heroku.
+Had slight technical issues with bundle installing the 'pg gem' needed to get this repository online with heroku. 
