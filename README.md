@@ -2,11 +2,11 @@ Building a Tumblr-style blog using Ruby on Rails.
 
 The applications will have the following features such as
 
-Posting text and photo content, Liking Post's and styling it up with bootstrap.
+Posting text and photo content, Liking Post's and styling it up with frontend framework bootstrap 3.
 
 
 By Adawe Nour 
 
 Completed Project!
 
-Had slight technical issues with bundle installing the 'pg gem' needed to get this repository online with heroku. 
+ 
